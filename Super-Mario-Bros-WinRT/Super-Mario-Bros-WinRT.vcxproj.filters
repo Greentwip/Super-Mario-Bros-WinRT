@@ -1,0 +1,1774 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Assets">
+      <UniqueIdentifier>87f1c3e6-9c7c-447e-b7dd-c6425ff40355</UniqueIdentifier>
+      <Extensions>bmp;fbx;gif;jpg;jpeg;tga;tiff;tif;png</Extensions>
+    </Filter>
+    <Image Include="Assets\Logo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SmallLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\StoreLogo.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Image Include="Assets\SplashScreen.png">
+      <Filter>Assets</Filter>
+    </Image>
+    <Filter Include="Headers">
+      <UniqueIdentifier>{98079cf8-cf17-4d3e-8e35-c56bbb131d65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{0faf327d-0af6-4422-8d8e-30cc5e0c575c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\images">
+      <UniqueIdentifier>{67e05d08-dc8e-4fcb-a25f-b49d45e4f599}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\sounds">
+      <UniqueIdentifier>{6ac19c36-7ca7-4dee-b8a7-049f4a75d9f8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Assets\images\mario">
+      <UniqueIdentifier>{9a446938-ae08-4a69-b04c-2356ec223acb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxManifest Include="Package.appxmanifest" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Super-Mario-Bros-WinRT_TemporaryKey.pfx" />
+    <None Include="..\lib\SDL\src\main\winrt\SDL2-WinRTResource_BlankCursor.cur" />
+    <None Include="Assets\sounds\blockhit.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\boom.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\bowserfall.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\bridgebreak.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\bulletbill.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\castle.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\castleend.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\castle-fast.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\coin.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\death.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\fire.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\fireball.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\gameover.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\intermission.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\jump.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\jumpbig.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\levelend.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\lowtime.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\mushroomappear.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\mushroomeat.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\oneup.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\overworld.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\overworld-fast.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\pause.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\pipe.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\princessmusic.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\rainboom.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\scorering.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\shot.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\shrink.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\starmusic.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\starmusic-fast.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\stomp.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\swim.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\underground.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\underground-fast.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\underwater.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\underwater-fast.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\vine.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Assets\sounds\blockbreak.ogg">
+      <Filter>Assets\sounds</Filter>
+    </None>
+    <None Include="Package.StoreAssociation.xml" />
+    <None Include="Super-Mario-Bros-WinRT_StoreKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\lib\SDL\src\main\winrt\SDL_winrt_main_NonXAML.cpp" />
+    <ClCompile Include="Source\BlockDebris.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bowser.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bubble.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletBill.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BulletBillSpawner.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CFG.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cheep.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CheepSpawner.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Coin.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Console.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Event.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Fire.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FireBall.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Flag.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Flower.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Goombas.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Hammer.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\HammerBro.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\IMG.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Koppa.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Lakito.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelEditor.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LevelText.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\LoadingMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\main.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MainMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Map.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MapLevel.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Menu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MenuOption.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Minion.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Mushroom.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Music.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MusicManager.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\OptionsMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PauseMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Pipe.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Plant.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\PlayerFireBall.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Points.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Spikey.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Spring.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Sprite.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Squid.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Star.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Text.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Texture.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Toad.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\UpFire.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vector2.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Vine.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\AboutMenu.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Beetle.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Block.cpp">
+      <Filter>Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="..\lib\SDL\src\main\winrt\SDL2-WinRTResources.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Headers\AboutMenu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Beetle.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Block.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BlockDebris.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Bowser.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Bubble.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BulletBill.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\BulletBillSpawner.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CFG.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Cheep.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\CheepSpawner.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Coin.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Console.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Core.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Event.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Fire.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\FireBall.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Flag.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Flower.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Goombas.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Hammer.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\HammerBro.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\header.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\IMG.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Koppa.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Lakito.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LevelEditor.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LevelText.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\LoadingMenu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MainMenu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Map.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MapLevel.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Menu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MenuManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MenuOption.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Minion.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Mushroom.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Music.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\MusicManager.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\OptionsMenu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PauseMenu.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Pipe.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Plant.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Platform.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Player.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\PlayerFireBall.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Points.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\resource.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Spikey.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Spring.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Sprite.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Squid.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Star.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Text.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Texture.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Toad.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\UpFire.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Vector2.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Headers\Vine.h">
+      <Filter>Headers</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="Assets\images\11.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\12.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\13.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\14.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\21.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\22.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\23.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\24.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\31.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\32.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\33.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\34.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\41.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\42.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\43.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\44.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\51.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\52.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\53.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\54.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\61.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\62.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\63.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\64.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\71.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\72.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\73.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\74.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\82.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\83.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\84.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\122.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\123.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\124.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\213.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\312.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\313.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\411.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\422.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\423.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\522.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\523.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\742.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\811.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\812.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\814.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\821.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\822.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\841.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\844.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\active_option.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\axe_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\axe_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\axe_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\b_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\b_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\b_top1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle2_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle2_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\beetle2_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\block_debris0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\block_debris1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\block_debris2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq_used.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq1_used.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\blockq2_used.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bonus.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bowser0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bowser1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bowser2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bowser3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\brick1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\brick2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\brickred.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bridge_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bridge_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bridge2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bridge3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bridge4.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bubble.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bulletbill.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bulletbill1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bush_center_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bush_center_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bush_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bush_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\bush_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle_flag.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle0_brick.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle0_center_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle0_center_center_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle0_center_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle0_center_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle0_top0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle0_top1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle1_brick.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle1_center_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle1_center_center_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle1_center_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle1_center_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle1_top0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\castle1_top1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cheep0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cheep1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cheep2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cheep3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_center_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_center_bot1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_center_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_center_top1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_left_bot1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\cloud_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_an0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_an1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_an2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_an3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use00.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use01.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use02.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use20.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use21.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use22.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use30.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use31.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin_use32.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\coin1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\crown.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\end0_dot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\end0_flag.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\end0_l.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\end1_dot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\end1_flag.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\end1_l.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\fence.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\fire_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\fire_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\fireball_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\fireball_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\fireball_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\fireball_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\firework0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\firework1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\firework2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\flower0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\flower1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\flower2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\flower3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\font.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd_4.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd_5.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd_red_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd_red2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\gnd2_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas_ded.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas1_ded.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas2_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas2_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\goombas2_ded.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\grass_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\grass_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\grass_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammer1_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\hammerbro1_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\ico.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\ico2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa_ded.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa1_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa1_ded.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa2_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa2_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa2_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa2_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\koopa2_ded.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\lakito_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\lakito_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\lava_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\lava_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\mushroom.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\mushroom_1up.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\mushroom1_1up.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\peach.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_hor_bot_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_hor_bot_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_hor_bot_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_hor_top_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_hor_top_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_hor_top_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_hor_bot_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_hor_bot_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_hor_bot_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_hor_top_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_hor_top_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_hor_top_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe1_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_hor_bot_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_hor_bot_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_hor_bot_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_hor_top_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_hor_top_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_hor_top_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe2_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_hor_bot_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_hor_bot_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_hor_bot_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_hor_top_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_hor_top_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_hor_top_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe3_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe4_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe4_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe4_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe4_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe5_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe5_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe5_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe5_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe6_left_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe6_left_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe6_right_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\pipe6_right_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\plant_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\plant_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\plant1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\plant1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\platform.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\platform1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\platformbonus.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\seesaw1_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spikey0_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spikey0_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spikey1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spikey1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spring_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spring_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spring_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spring1_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spring1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\spring1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\squid0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\squid1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\star_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\star_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\star_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\star_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\super_mario_bros.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_bot.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_bot0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_bot1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_bot2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_center.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_center1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_center2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_left.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_left1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_left2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_right.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_right1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\t_right2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\toad.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\transp.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\tree_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\tree_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\tree_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\tree_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\tree1_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\tree1_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\tree1_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\upfire.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\uw_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\uw_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\vine.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\vine_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\vine1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\vine1_top.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\water_0.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\water_1.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\water_2.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\water_3.bmp">
+      <Filter>Assets\images</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_death.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_end.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_end1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_jump.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_lvlup.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_move0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_move1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_move2.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_death.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_end.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_end1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_jump.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_move0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_move1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_move2.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_st.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_underwater0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s0_underwater1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_death.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_end.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_end1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_jump.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_move0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_move1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_move2.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_st.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_underwater0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_s1_underwater1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_st.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_underwater0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario_underwater1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_end.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_end1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_jump.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_move0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_move1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_move2.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_squat.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_st.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_underwater0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario1_underwater1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_end.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_end1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_jump.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_move0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_move1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_move2.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_squat.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_st.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_underwater0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2_underwater1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_end.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_end1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_jump.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_move0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_move1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_move2.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_squat.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_st.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_underwater0.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+    <Image Include="Assets\images\mario\mario2s_underwater1.bmp">
+      <Filter>Assets\images\mario</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

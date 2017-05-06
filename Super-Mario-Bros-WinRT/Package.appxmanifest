@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Package xmlns="http://schemas.microsoft.com/appx/2010/manifest" xmlns:m2="http://schemas.microsoft.com/appx/2013/manifest">
+  <Identity Name="59711Greentwip.SuperMarioBros.8.1" Publisher="CN=20CC192E-7CE9-4070-8839-E1D1474BB0C4" Version="1.1.0.0" />
+  <Properties>
+    <DisplayName>Super Mario Bros. 8.1</DisplayName>
+    <PublisherDisplayName>Greentwip</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Prerequisites>
+    <OSMinVersion>6.3.0</OSMinVersion>
+    <OSMaxVersionTested>6.3.0</OSMaxVersionTested>
+  </Prerequisites>
+  <Resources>
+    <Resource Language="x-generate" />
+  </Resources>
+  <Applications>
+    <Application Id="App" Executable="$targetnametoken$.exe" EntryPoint="Super_Mario_Bros_WinRT.App">
+      <m2:VisualElements DisplayName="Super Mario Bros. 8.1" Square150x150Logo="Assets\Logo.png" Square30x30Logo="Assets\SmallLogo.png" Description="Super Mario Bros. is a platform video game developed and published by Nintendo for the Nintendo Entertainment System home console. Released as a sequel to the 1983 game Mario Bros., Super Mario Bros. was released in Japan and North America in 1985, and in Europe and Australia two years later. In Super Mario Bros., the player controls Mario and in a two-player game as he travels through the Mushroom Kingdom in order to rescue Princess Toadstool from the antagonist Bowser." ForegroundText="light" BackgroundColor="#464646">
+        <m2:SplashScreen Image="Assets\SplashScreen.png" />
+      </m2:VisualElements>
+    </Application>
+  </Applications>
+</Package>
